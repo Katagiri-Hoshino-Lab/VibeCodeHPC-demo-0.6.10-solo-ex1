@@ -1,10 +1,10 @@
 # VibeCodeHPC GEMM Optimization Final Report
 
 ## 実行概要
-- **日時**: 2025-09-15 13:30 - 23:03 JST
+- **日時**: 2025-09-15 13:30 - 23:06 JST
 - **環境**: 不老 TypeII (Tesla V100-SXM2-32GB)
 - **目標**: GEMMの理論性能限界への接近
-- **達成度**: 71.8% (5600.81 GFLOPS / 7800 GFLOPS)
+- **達成度**: 75.3% (5873.67 GFLOPS / 7800 GFLOPS)
 
 ## 性能推移
 
@@ -13,7 +13,7 @@
 | Baseline | CPU (gcc -O3) | 0.68 | 0.05% | 1.0x |
 | v1.0.0 | CUDA Basic Tiling | 1804.45 | 23.1% | 2653x |
 | v2.0.0 | CUDA Optimized | 1883.43 | 24.1% | 2770x |
-| v3.0.0 | cuBLAS | 5600.81 | 71.8% | 8236x |
+| v3.0.0 | cuBLAS | 5873.67 | 75.3% | 8637x |
 
 ## 技術的詳細
 
@@ -39,7 +39,7 @@
 - NVIDIA cuBLAS library
 - Tensor Core support (V100)
 - Column-major format handling
-- **71.8%の効率を達成** ✨
+- **75.3%の効率を達成** ✨
 
 ## 予算使用状況
 - **使用ポイント**: 約0.1ポイント（インタラクティブノード使用）
@@ -58,7 +58,7 @@
 - `/User-shared/visualizations/budget_usage.png`
 
 ## 結論
-cuBLASを使用することで、Tesla V100の理論性能の71.8%を達成しました。
+cuBLASを使用することで、Tesla V100の理論性能の75.3%を達成しました。
 これはHPCアプリケーションとしては優秀な効率です。
 手動最適化（v2.0.0）では24.1%に留まり、ライブラリの重要性が示されました。
 
