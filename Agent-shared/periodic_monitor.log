@@ -167,3 +167,24 @@
 ✅ Context usage monitoring complete
 ✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
 ✅ Context usage monitoring complete
+[2025-09-15T14:04:15Z] Checking milestones... Elapsed: 30 minutes
+[2025-09-15T14:04:15Z] Milestone 30 minutes reached, saving...
+📊 Found 1 agents with logs
+  - Processing SOLO...
+✅ 概要グラフ生成: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_30min.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+[2025-09-15T14:05:16Z] Budget milestone (after_30min) for 30min
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+[2025-09-15T14:05:18Z] Budget milestone saved: budget_milestone_30min_2025-09-15T14-05-16Z.json
+[2025-09-15T14:05:18Z] Budget graph saved: budget_usage_30min.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Solo/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
